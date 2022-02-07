@@ -1,0 +1,28 @@
+{
+  "name": "2Sanie Crawler Helper",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Injecting stuff",
+  "homepage_url": "http://2sanie.com",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Inject!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ],
+  "content_scripts": [
+		{
+		 "matches": ["https://*/*","http://*/*"],
+		 "js": ["script.js"]
+		}
+	],
+  "web_accessible_resources": ["script.js"]
+}
