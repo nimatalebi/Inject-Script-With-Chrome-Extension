@@ -1,9 +1,9 @@
 {
-  "name": "2Sanie Crawler Helper",
+  "name": "Inject-Script-whit-Chrome-Extension",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "Injecting stuff",
-  "homepage_url": "http://2sanie.com",
+  "homepage_url": "https://github.com/nimatalebi/Inject-Script-whit-Chrome-Extension",
   "background": {
     "scripts": [
       "background.js"
