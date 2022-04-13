@@ -1,9 +1,9 @@
 {
-  "name": "Inject-Script-whit-Chrome-Extension",
+  "name": "Inject-Script-With-Chrome-Extension",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Injecting stuff",
-  "homepage_url": "https://github.com/nimatalebi/Inject-Script-whit-Chrome-Extension",
+  "description": "Injecting",
+  "homepage_url": "https://github.com/nimatalebi/Inject-Script-With-Chrome-Extension",
   "background": {
     "scripts": [
       "background.js"
